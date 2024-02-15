@@ -12,6 +12,7 @@ public class NthFibonacciNumber {
             int next =  prev + current;
             prev = current;
             current = next;
+            System.out.println(current);
         }
         return current;
     }

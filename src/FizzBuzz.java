@@ -26,7 +26,7 @@ public class FizzBuzz {
 		int n=sc.nextInt();
         
 		System.out.println("Output :");
-		System.out.println(10.0/0);
+		
 		
 		String[] ans = fizzBuzz(n);
 		for(int i=0;i<ans.length;i++) {
