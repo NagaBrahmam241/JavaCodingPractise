@@ -15,9 +15,9 @@ public class PyramidPrinting {
         for(int i=0;i<inputNumber;i++){
             StringBuilder sb = new StringBuilder();
             for(int j=0;j<=i;j++){
-                sb.append("* ");
+                sb.append(i+1 + " ");
             }
-            result[i] = sb.toString();
+            result[i] = sb.toString().trim();
         }
         return result;
     }
